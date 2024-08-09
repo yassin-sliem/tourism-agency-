@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #0C356A;
+            background-image: url(./back\ 2.jpg);
+            margin: 0%;
+            background-size: cover;
+        }
+        div{
+            margin-top: 200px;
+            /* background-color: #DAE1E7; */
+            background-color: #DFDDDE;
+            border-radius: 30px;
+            width: 750px;
+        }
+        input{
+            margin: 3px;
+            width: 400px;
+        }
+        .color{
+            background-color: #EEEEEE;
+            color: #DD6B4D;
+        }
+        .color:hover{
+            background-color:#DD6B4D ;
+            color: #EEEEEE;
+        }
+        
+        .sm,.color{
+            width: 100px;
+        }
+        header{
+            background-color: #FFC55A;
+            align-items: center;
+            
+        }
+        .small{
+            width: 5%;
+            height: 5%;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+           margin-left: 13px;
+        }
+        .move{
+            margin-left: 800px;
+        }
+        a:hover{
+            text-decoration:underline;
+           color: blueviolet;
+        }
+        .change{
+            color: black;
+            margin-left: 600px;
+            display: inline-block;
+        }
+        .font{
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            /* margin-left: 600px; */
+            margin: top 5px ;
+            font-size: small;
+            display: inline-block;
+            color: black;
+        }
+        .tiny{
+            width: 5%;
+            height: 5%;
+            
+        }
+        #r{
+            border-radius: 5px;
+            padding-left: 5px;
+            border: none;
+        }
+        .pic{
+            width: 3%;
+            height: 3%;
+        }
+        .pay{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./travel-guide-book.png" alt="" class="tiny">
+        <h2 class="font"> Discover the world, your way</h2>
+            <!-- <h2>HOME PAGE</h2> -->
+            <a href="./main.html"class="move"><img class="pic" src="./home.png" alt=""></a>
+            <a href="./info on his places.html"><img class="pic" src="./giza.png" alt=""></a>
+            <a href="./hotel.html"><img class="pic" src="./hotel.png" alt=""></a><a href="./visa.html"><img class="pic" src="./credit-card.png" alt=""></a>
+            <a href="./contact.html"><img class="pic" src="./operator.png" alt=""></a>
+        </header>
+    <center>
+        <div>
+            <h2 class="padding">payment options</h2>
+            <img src="./payment.png" alt="payment options" class="pay"><br>
+            <input type="text" placeholder="holder's name" required id="r"><br>
+            <input type="password" placeholder="card number"required id="r"> <br>
+            <input type="date" class="sm" id="r"><input type="password" placeholder="CVC"class="sm" maxlength="3" required id="r"><br>
+            <input type="submit"class="color" value="submit" id="r" class="padding">
+        </div>
+    </center>
+</body>
+</html>

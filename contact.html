@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #0C356A;
+            background-image: url(./back\ 2.jpg);
+            margin: 0%;
+            background-size: cover;
+        }
+        div{
+            background-color: #FFC55A;
+            margin-top: 200px;
+            font-weight: 900;
+            font-size: larger;
+            width:750px ;
+            border-radius: 15px;
+        }
+        input{
+            display: block;
+            margin: 5px;
+            width: 400px;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        #r{
+            border-radius: 15px;
+            border: none;
+        }
+         header{
+            background-color: #FFC55A;
+            
+        }
+        .small{
+            width: 5%;
+            height: 5%;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+           margin-left: 13px;
+        }
+        .move{
+            margin-left: 800px;
+        }
+        a:hover{
+            text-decoration:underline;
+           color: blueviolet;
+        }
+        .change{
+            color: black;
+            margin-left: 590px;
+            display: inline-block;
+        }
+        
+        .font{
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+            /* margin-left: 600px; */
+            margin: top 5px ;
+            font-size: small;
+            display: inline-block;
+            color: black;
+        }
+        .tiny{
+            width: 5%;height: 5%;
+        }
+        #Message{
+            height: 60px;
+        }
+        .color{ 
+            margin-bottom: 5px;
+            background-color: #EEEEEE;
+            color: #DD6B4D;
+            width: 200px;
+        }
+        .color:hover{
+            background-color:#DD6B4D ;
+            color: #EEEEEE;
+        }.pic{
+            width: 3%;
+            height: 3%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./travel-guide-book.png" alt="" class="tiny">
+        <h2 class="font"> Discover the world, your way</h2>
+            <!-- <h2>HOME PAGE</h2> -->
+            <a href="./main.html"class="move"><img class="pic" src="./home.png" alt=""></a>
+            <a href="./info on his places.html"><img class="pic" src="./giza.png" alt=""></a>
+            <a href="./hotel.html"><img class="pic" src="./hotel.png" alt=""></a><a href="./visa.html"><img class="pic" src="./credit-card.png" alt=""></a>
+            <a href="./contact.html"><img class="pic" src="./operator.png" alt=""></a>
+        </header>
+        <center>
+            <div>
+                <p><h1>Contact Us</h1></p>
+                <input type="text" placeholder="First name " required>
+                <input type="text" placeholder="Last name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Message" id="Message" required>
+                <input type="submit" value="Submit Message" id="r"class="color" >
+            </div>
+        </center>
+</body>
+</html>
